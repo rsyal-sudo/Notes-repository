@@ -1,0 +1,140 @@
+
+Git Commands
+
+Git is a distributed version control system
+
+Local version control system
+Centralzed version control system
+distributed version control system
+
+git config --global user.name Rahul
+--> To set user name
+
+git config --global user.email rahul.syal61@gmail.com
+--> To set user email
+
+git config --global user.name
+git config --global user.email
+=> To check if both are set properly
+
+
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+--> To set notepad as default editor
+
+
+git init
+-> To initialize repository
+
+ls -lart
+--> List all files
+
+
+git status
+--> to get status of current repository
+
+git add --a
+--> add all untracked files to staging area
+
+
+git commit -m 'Inital Commit"
+-> To comit staging changes
+
+git add 1st.txt
+-> To add one file to staging area
+
+rm -rf .git
+--> To delete git repository
+
+git clone "url" "Name of repository"
+--> to clone the repository from a cure 
+
+untracked , unmodified , modified , staged
+--> Stages of git
+
+touch "file name"
+--> To create a new file
+
+touch .gitignore
+--> Enter file names in this file u want the git to ignore for changes
+
+*.log
+--> To ignore all log files present on a location
+
+/Dir
+--> To ignore directory present named Dir 
+
+git diff
+-> Compares working directory with staging area
+
+git commit -a  -m "Direct Commit"
+-> To skip staging area
+
+git rm file.txt
+-> to remove the file
+
+
+git mv firstfile.txt secondfle.txt
+--> To rname firstfile to secondfile
+
+git rm --cached db.aacdb 
+--> To untrack files after adding in git ignore
+
+rm -rf .git
+--> Remove entire repository
+
+git log
+-->  To show logs who commited and when
+
+git log -p
+--> to show difference bw git commands
+
+git log -p -3
+--> To show only top 3 commits
+
+git log--pretty=oneline
+--> Shows all git logs in one line
+
+git log--pretty=full
+--> To show all logs
+
+git log --since=2.days
+--> To show logs from past few days
+
+git log --pretty=format:"%h--%ae"
+--> Refer doc for documentasion
+
+
+git restore --staged file
+--> To unstage the file
+
+git checkout -- file name
+--> Macthes the files with provious commit and discard the recent changes..
+
+
+git checkout -f
+--> Matches the all the modofied files with last commit
+
+
+
+After creating a account on git hub
+
+--> git remote add origin https://github.com/rsyal-sudo/Demo-Repository-for-git-practice.git
+--> git push -u origin master
+--> git remote -v
+--> git push -u origin master
+
+
+Generating SSH key
+$ $ ssh-keygen -t rsa -b 4096 -C "rahulsyal61@gmail.com"
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Alias in git
+--> git 
+
+config --global alia.st status
+--> to use st instead of status
+
+
+
+
+

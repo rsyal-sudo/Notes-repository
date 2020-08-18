@@ -1,0 +1,73 @@
+
+Ubuntu Basic Commands:
+ls
+--> List files and Directory
+pwd
+->print working directory
+cd-
+--> change directory
+mv
+--> move files 
+cp
+-->copy files
+touch 1.txt
+--> cREATES A NEW TEXT FILE	
+
+Users:
+Regular user-- Home directory access
+Root user-- Full Access
+Service user
+
+
+To act as a root user use sudo commands
+--> sudo apt-get update
+--> sudo apt-get update  --This installs new apps
+  
+  
+ls -R 
+--> Prints all files from all child directories , R stands for recursive
+
+touch .harry
+--> creates a hidden file
+
+ls -a
+--> to view hidden files
+
+clear
+--> to clean the terminal
+
+echo and printf
+--> to print content on screen
+
+Note: Linux is case sensitive
+
+sudo apt install apache
+
+
+chmod 734 1.txt
+--> to change mode of fie.. read write or execute
+
+chgrp
+-> to change group permissions
+
+top
+->> shows the process which consume most of the resource
+
+ps
+-> list All process
+
+ps-a
+-> list background process
+
+kill 1213
+-> kills the process
+
+vim 2.txt
+-> to edit a text file  / Hit I to insert text
+
+
+use :wq to save and exit from file
+
+
+
+tips google chmod calculator
